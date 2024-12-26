@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.full-screen-modal .ant-modal-content {
+  min-height: 100vh;
+  border-radius: 0;
+}
+
+.full-screen-modal .ant-modal-body {
+  padding: 0;
+}
